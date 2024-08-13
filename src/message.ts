@@ -15,7 +15,7 @@ type MessageBody = {
     "user_id": string
   }
 
-export function messageRoute(req:Request, res:Response) {
+export default function messageRoute(req:Request, res:Response) {
     const body = req.body as MessageBody;
     console.log(body);
     res.send('Hello World!');

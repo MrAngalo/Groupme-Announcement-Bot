@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { messageRoute } from './message';
+import messageRoute from './message';
 
 const app = express();
 const port = 3000;
